@@ -1,4 +1,4 @@
-function slowSown(velocity, printer){
+function slowDown(velocity, printer){
     let deceleration = 20
 
     while(velocity>0){
@@ -11,6 +11,6 @@ function slowSown(velocity, printer){
 
 let spaceshipVelocity = 150
 
-slowSown(spaceshipVelocity, function(velocity){
+slowDown(spaceshipVelocity, function(velocity){
     console.log(`Velocidade atual: ${velocity}`)
 })
