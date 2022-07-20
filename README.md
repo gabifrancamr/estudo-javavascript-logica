@@ -1,2 +1,2 @@
-# estudo javavascript logica
+# Estudo de JavaScript, aplicando lógica de programação
  
