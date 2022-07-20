@@ -1,8 +1,13 @@
-let contagem = 0
-let nome = prompt("Informe o nome da sua nave espacial")
-let resposta = prompt('Deseja realizar a próxima dobra?\n1-Sim\n2-Não\nDigite apenas o número')
-while (resposta == '1'){
-    contagem++
-    resposta = prompt('Deseja realizar a próxima dobra?\n1-Sim\n2-Não\nDigite apenas o número')
+let warpCount = 0
+let chosenOption = ""
+
+let spaceship = prompt("Digite o nome da nave")
+
+chosenOption = prompt("Deseja entrar em dobra espacial?\n1- Sim\n2- Não")
+
+while(chosenOption == "1") {
+    warpCount += 1
+    chosenOption = prompt("Deseja realizar a próxima dobra?\n1- Sim\n2- Não")
 }
-alert("Nave: " + nome + "\nQuantidade de dobras: " + contagem)
+
+alert("Nave: " + spaceship + "\nQuantidade de dobras: " + warpCount)
