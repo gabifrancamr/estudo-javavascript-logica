@@ -1,4 +1,4 @@
-const nome1 = prompt('Vou pedir informação sobre duas pessoas. Informe o nome da pessoa mais velha:');
+const nome1 = prompt('Vou pedir informação sobre duas pessoas.\n Informe o nome da pessoa mais velha:');
 const idade1 = Number(prompt('Informe a idade da pessoa mais velha:'));
 const nome2 = prompt('Nome da pessoa mais nova:');
 const idade2 = Number(prompt('Idade da pessoa mais nova:'));
