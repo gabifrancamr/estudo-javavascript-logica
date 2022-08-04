@@ -12,3 +12,6 @@ Repositório com estudo de JavaScript
  - Do While
  - Arrays
  
+ <h4 align="center"> 
+	🚧 Em construção...  🚧
+</h4>
